@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="45dp"
+    android:background="@color/backgroundColor"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Your"
+        android:textColor="@color/textView"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:layout_marginTop="15dp"
+        android:textColor= "#FF0000"
+        android:background="@color/Agebaccolor"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="in minutes"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/textView"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Select dob"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:backgroundTint="@color/btnbaccolor" />
+    <TextView
+        android:id="@+id/dateenteredid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/output"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Date Entered Converts to"
+        android:textColor="@color/textView"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/minutesshownid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/output"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="in Minutes"
+        android:textColor="@color/textView"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
